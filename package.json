@@ -1,0 +1,21 @@
+{
+  "name": "claude-backup",
+  "version": "0.1.0",
+  "description": "Backup and restore your Claude Code, Claude Desktop, and custom skills/plugins configuration across devices.",
+  "type": "module",
+  "bin": {
+    "claude-backup": "./bin/claude-backup.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "commander": "^12.1.0",
+    "prompts": "^2.4.2"
+  },
+  "license": "MIT"
+}
